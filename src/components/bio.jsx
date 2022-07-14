@@ -34,22 +34,21 @@ const Bio = () => {
     <div className="bio">
       <StaticImage
         className="bio-avatar"
-        layout="fixed"
+        layout="fullWidth"
         formats={["auto", "webp", "avif"]}
         src="../images/profile-pic.png"
-        width={50}
-        height={50}
+        width={80}
+        height={80}
         quality={95}
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+        <div>
+          Written by <strong>{author.name}</strong> 
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
-        </p>
+          <br></br>
+          {author?.summary || null}
+        </div>
       )}
     </div>
   )

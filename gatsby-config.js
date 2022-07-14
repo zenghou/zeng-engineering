@@ -1,12 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Zeng's Engineering Blog`,
+    title: `Zeng Engineering`,
     author: {
       name: `Zeng Hou Lim`,
-      summary: `who lives and works in Palo Alto building things for Rivian`,
+      summary: `Software Engineer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `https://linkedin.com/in/zenghou`,
     },
